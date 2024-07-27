@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: black;
+}
+.banner {
+  background-image: radial-gradient(rgba(0, 0, 57, 0.846), rgb(0, 0, 20));
+  border-bottom: 1px solid #0080e9;
+  height: 450px;
+}
+
+.banner-content {
+  background-image: url(/assets/images/banner.png);
+  height: 450px;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  background-attachment: fixed;
+  margin: 1px 0px 1px 0px;
+}
+
+.logo {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+h1 {
+  background: -webkit-linear-gradient(#0195ff, #0080e9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  color: white;
+  text-align: center;
+  word-break: normal;
+}
+
+header button {
+  padding-bottom: 2rem;
+}
+.button {
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  border: 0.1rem solid rgb(0, 162, 255);
+  padding: 1rem;
+  display: flex;
+  background-color: rgba(0, 162, 255, 0);
+  color: rgb(0, 162, 255);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+}
+
+.button:hover {
+  box-shadow: 0 0 0.5rem rgba(0, 0, 57, 0.846);
+  background-color: rgb(0, 162, 255);
+  color: rgba(0, 0, 57, 0.846);
+  cursor: pointer;
+}
+
+#course-content {
+  background-color: black;
+  padding: 1rem;
+  margin-top: 1px;
+}
+
+h2 {
+  background: -webkit-linear-gradient(#0195ff, #0080e9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  margin: 1px;
+}
+
+span {
+  color: #0080e9;
+}
+
+.module {
+  color: white;
+  text-align: center;
+  width: 25rem;
+  padding: 0.6rem;
+  border: 1px solid #0080e9;
+  border-radius: 50px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.module:hover {
+  box-shadow: 0 0 0.5rem rgba(0, 0, 57, 0.846);
+  background-color: rgb(0, 162, 255);
+  color: rgba(0, 0, 57, 0.846);
+  cursor: pointer;
+}
+
+
+
+#transform-world {
+  background-size: cover;
+  background-image: url("/assets/images/woman-code.png");
+  min-height: 500px;
+  background-attachment: fixed;
+  margin: 1px 0px 1px 0px;
+  border: 1px solid #008cff;
+}
+
+#transform-world p {
+  font-size: 3rem;
+  text-align: left;
+  margin-left: 200px;
+  padding-top: 150px;
+  filter: drop-shadow(1px 4px 3px #008cff);
+}
+
+#professional-challenges {
+  text-align: center;
+  border-bottom: 1px solid #008cff;
+}
+
+#professional-challenges p {
+  padding: 2rem 15rem 5rem;
+}
+
+footer {
+  background-image: linear-gradient(rgba(0, 0, 57, 0.846), rgb(0, 0, 37));
+}
+
+.dio-logo {
+  padding-top: 2rem;
+}
+
+footer img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer p {
+  padding: 2rem;
+}
+
+a {
+  color: #0080e9;
+}
